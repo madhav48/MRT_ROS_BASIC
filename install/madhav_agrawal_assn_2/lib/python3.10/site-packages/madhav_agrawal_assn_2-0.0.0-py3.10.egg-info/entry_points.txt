@@ -1,0 +1,7 @@
+[console_scripts]
+basestation = madhav_agrawal_assn_2.basestation:main
+d_rover1 = madhav_agrawal_assn_2.d_rover1:main
+d_rover2 = madhav_agrawal_assn_2.d_rover2:main
+d_rover3 = madhav_agrawal_assn_2.d_rover3:main
+d_rover4 = madhav_agrawal_assn_2.d_rover4:main
+

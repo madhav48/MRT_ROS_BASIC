@@ -1,0 +1,4 @@
+source;share/mrt_interfaces/local_setup.bash
+source;share/mrt_interfaces/local_setup.dsv
+source;share/mrt_interfaces/local_setup.sh
+source;share/mrt_interfaces/local_setup.zsh

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mrt_interfaces/msg/Custom.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module mrt_interfaces {
+  module msg {
+    struct Custom {
+      int32 rover_id;
+
+      float battery_level;
+
+      geometry_msgs::msg::Pose current_location;
+
+      string health_status;
+    };
+  };
+};

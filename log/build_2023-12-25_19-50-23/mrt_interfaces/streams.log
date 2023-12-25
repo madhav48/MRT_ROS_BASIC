@@ -1,0 +1,16 @@
+[0.040s] Invoking command in '/home/madhav/mrt_ws/build/mrt_interfaces': CMAKE_PREFIX_PATH=/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/madhav/mrt_ws/build/mrt_interfaces -- -j12 -l12
+[0.053s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.173s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.173s]   ament_target_dependencies() the first argument must be a valid target name
+[0.173s] Call Stack (most recent call first):
+[0.174s]   CMakeLists.txt:15 (ament_target_dependencies)
+[0.174s] 
+[0.174s] [0m
+[0.174s] -- Configuring incomplete, errors occurred!
+[0.174s] See also "/home/madhav/mrt_ws/build/mrt_interfaces/CMakeFiles/CMakeOutput.log".
+[0.176s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.177s] Invoked command in '/home/madhav/mrt_ws/build/mrt_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/madhav/mrt_ws/build/mrt_interfaces -- -j12 -l12

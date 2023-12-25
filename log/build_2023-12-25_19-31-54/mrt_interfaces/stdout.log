@@ -1,0 +1,13 @@
+[  6%] [32mBuilding C object CMakeFiles/mrt_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mrt_interfaces/msg/detail/custom__functions.c.o[0m
+[  6%] Built target mrt_interfaces__cpp
+[  6%] Built target ament_cmake_python_copy_mrt_interfaces
+[  9%] [32mBuilding CXX object CMakeFiles/mrt_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrt_interfaces/msg/detail/dds_fastrtps/custom__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/mrt_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrt_interfaces/msg/detail/custom__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mrt_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrt_interfaces/msg/custom__type_support.cpp.o[0m
+running egg_info
+writing mrt_interfaces.egg-info/PKG-INFO
+writing dependency_links to mrt_interfaces.egg-info/dependency_links.txt
+writing top-level names to mrt_interfaces.egg-info/top_level.txt
+reading manifest file 'mrt_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'mrt_interfaces.egg-info/SOURCES.txt'
+[ 16%] Built target ament_cmake_python_build_mrt_interfaces_egg

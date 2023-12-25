@@ -1,0 +1,74 @@
+[0.041s] Invoking command in '/home/madhav/mrt_ws/build/mrt_interfaces': CMAKE_PREFIX_PATH=/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/madhav/mrt_ws/build/mrt_interfaces -- -j12 -l12
+[0.056s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.310s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.554s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.580s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.581s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.581s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.586s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.591s] -- Added test 'lint_cmake' to check CMake code style
+[0.591s] -- Added test 'xmllint' to check XML markup files
+[0.592s] -- Configuring done
+[0.604s] -- Generating done
+[0.606s] -- Build files have been written to: /home/madhav/mrt_ws/build/mrt_interfaces
+[0.619s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.625s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.638s] [  6%] Built target ament_cmake_python_copy_mrt_interfaces
+[0.765s] [35m[1mConsolidate compiler generated dependencies of target mrt_interfaces__rosidl_generator_c[0m
+[0.769s] [  6%] Built target mrt_interfaces__cpp
+[0.771s] [  9%] [32mBuilding C object CMakeFiles/mrt_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mrt_interfaces/msg/detail/custom__functions.c.o[0m
+[0.776s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.777s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.777s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.778s] In file included from [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_generator_c/mrt_interfaces/msg/detail/custom__functions.h:19[m[K,
+[0.778s]                  from [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_generator_c/mrt_interfaces/msg/detail/custom__functions.c:4[m[K:
+[0.778s] [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_generator_c/mrt_interfaces/msg/detail/custom__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.h: No such file or directory
+[0.778s]    22 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.h"[m[K
+[0.778s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.778s] compilation terminated.
+[0.779s] gmake[2]: *** [CMakeFiles/mrt_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/mrt_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mrt_interfaces/msg/detail/custom__functions.c.o] Error 1
+[0.779s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/mrt_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.779s] gmake[1]: *** Waiting for unfinished jobs....
+[0.821s] running egg_info
+[0.822s] writing mrt_interfaces.egg-info/PKG-INFO
+[0.822s] writing dependency_links to mrt_interfaces.egg-info/dependency_links.txt
+[0.822s] writing top-level names to mrt_interfaces.egg-info/top_level.txt
+[0.823s] reading manifest file 'mrt_interfaces.egg-info/SOURCES.txt'
+[0.823s] writing manifest file 'mrt_interfaces.egg-info/SOURCES.txt'
+[0.843s] [ 19%] Built target ament_cmake_python_build_mrt_interfaces_egg
+[0.917s] [35m[1mConsolidate compiler generated dependencies of target mrt_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.925s] [ 22%] [32mBuilding CXX object CMakeFiles/mrt_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrt_interfaces/msg/detail/dds_fastrtps/custom__type_support.cpp.o[0m
+[0.930s] [35m[1mConsolidate compiler generated dependencies of target mrt_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.937s] [ 25%] [32mBuilding CXX object CMakeFiles/mrt_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrt_interfaces/msg/detail/custom__type_support.cpp.o[0m
+[0.954s] In file included from [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_typesupport_fastrtps_cpp/mrt_interfaces/msg/detail/custom__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.954s]                  from [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_typesupport_fastrtps_cpp/mrt_interfaces/msg/detail/dds_fastrtps/custom__type_support.cpp:4[m[K:
+[0.954s] [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_generator_cpp/mrt_interfaces/msg/detail/custom__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.hpp: No such file or directory
+[0.954s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.hpp"[m[K
+[0.954s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.954s] compilation terminated.
+[0.955s] gmake[2]: *** [CMakeFiles/mrt_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/mrt_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mrt_interfaces/msg/detail/dds_fastrtps/custom__type_support.cpp.o] Error 1
+[0.955s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/mrt_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.969s] In file included from [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_typesupport_introspection_cpp/mrt_interfaces/msg/detail/custom__type_support.cpp:12[m[K:
+[0.969s] [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_generator_cpp/mrt_interfaces/msg/detail/custom__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.hpp: No such file or directory
+[0.969s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.hpp"[m[K
+[0.969s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.969s] compilation terminated.
+[0.970s] [35m[1mConsolidate compiler generated dependencies of target mrt_interfaces__rosidl_typesupport_cpp[0m
+[0.970s] gmake[2]: *** [CMakeFiles/mrt_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/mrt_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mrt_interfaces/msg/detail/custom__type_support.cpp.o] Error 1
+[0.970s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/mrt_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.977s] [ 29%] [32mBuilding CXX object CMakeFiles/mrt_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrt_interfaces/msg/custom__type_support.cpp.o[0m
+[1.002s] In file included from [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_typesupport_cpp/mrt_interfaces/msg/custom__type_support.cpp:7[m[K:
+[1.002s] [01m[K/home/madhav/mrt_ws/build/mrt_interfaces/rosidl_generator_cpp/mrt_interfaces/msg/detail/custom__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/pose__struct.hpp: No such file or directory
+[1.002s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/pose__struct.hpp"[m[K
+[1.002s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.002s] compilation terminated.
+[1.003s] gmake[2]: *** [CMakeFiles/mrt_interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/mrt_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mrt_interfaces/msg/custom__type_support.cpp.o] Error 1
+[1.003s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/mrt_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[1.003s] gmake: *** [Makefile:146: all] Error 2
+[1.005s] Invoked command in '/home/madhav/mrt_ws/build/mrt_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/madhav/erc_ws/install/week1_tutorials:/home/madhav/erc_ws/install/week0_tutorials:/home/madhav/erc_ws/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/madhav/mrt_ws/build/mrt_interfaces -- -j12 -l12

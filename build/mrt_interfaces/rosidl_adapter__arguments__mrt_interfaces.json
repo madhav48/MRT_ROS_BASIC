@@ -1,0 +1,6 @@
+{
+  "package_name": "mrt_interfaces",
+  "non_idl_tuples": [
+    "/home/madhav/mrt_ws/src/mrt_interfaces:msg/Custom.msg"
+  ]
+}
